@@ -7,4 +7,5 @@ sleep 10 seconds
 end_time=$date
 echo "end time of the script"
 
-Total time taken to execute the script Total_time=$start_time-$end_time
+Total_time=$start_time-$end_time
+echo "Total time taken to execute the script: $Total_time"
