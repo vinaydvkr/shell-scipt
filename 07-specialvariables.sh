@@ -4,13 +4,15 @@
 echo "Arguments passed to the script are $@"
 echo "The number of arguments passed is $#"
 echo "The process ID of the current shell is $$"
+echo "Realpath: $(realpath $0)"
+sleep 10 &
 echo "The process ID of the command running in the background is $!"
+wait $! # script waits until $! command complete
 echo "The exit status of the last command is $?"
 echo "The name of the script is $0"
 echo "The first argument passed to the script is $1"
 echo "The second argument passed to the script is $2"
 echo "The third argument passed to the script is $3"
-sleep 20 &
 echo "Who is the user running the script $USER"
 echo "The home directory of the user is $HOME"
 echo "The current working directory is $PWD"
