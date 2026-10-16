@@ -18,7 +18,7 @@ echo "The current shell is $SHELL"
 echo "The current date and time is $(date)"
 echo "The current user is $(whoami)"
 echo "The current line number in the script is $LINENO"
-echo "The total time taken by the script to execute is $SECONDS"
 echo "All arguments passed to the script as a single string is $*"
+echo "The total time taken by the script to execute is $SECONDS"
 
 
