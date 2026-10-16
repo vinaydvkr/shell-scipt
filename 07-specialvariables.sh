@@ -10,7 +10,7 @@ echo "The name of the script is $0"
 echo "The first argument passed to the script is $1"
 echo "The second argument passed to the script is $2"
 echo "The third argument passed to the script is $3"
-sleep 10 &
+sleep 20 &
 echo "Who is the user running the script $USER"
 echo "The home directory of the user is $HOME"
 echo "The current working directory is $PWD"
