@@ -4,4 +4,4 @@
 
 echo "$COURSE"
 echo "$DURATION"
-echo "$Trainer Name"
+echo "$TRAINERNAME"
