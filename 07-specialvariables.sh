@@ -3,7 +3,6 @@
 
 echo "Arguments passed to the script are $@"
 echo "The number of arguments passed is $#"
-sleep 10 seconds
 echo "The process ID of the current shell is $$"
 echo "The process ID of the command running in the background is $!"
 echo "The exit status of the last command is $?"
@@ -11,6 +10,7 @@ echo "The name of the script is $0"
 echo "The first argument passed to the script is $1"
 echo "The second argument passed to the script is $2"
 echo "The third argument passed to the script is $3"
+sleep 10 &
 echo "Who is the user running the script $USER"
 echo "The home directory of the user is $HOME"
 echo "The current working directory is $PWD"
