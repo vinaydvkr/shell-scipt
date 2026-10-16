@@ -1,6 +1,6 @@
 #!/bin/bash
 
-####Envirinment Variables####
+####Environment Variables####
 
 echo "$COURSE"
 echo "$DURATION"
