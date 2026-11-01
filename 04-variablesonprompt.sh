@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Here we will pass the variables on the prompt and use them in the script
+#Here we will pass the variables on the prompt and use them in the script.
 
 PERSON1=$1
 PERSON2=$2
