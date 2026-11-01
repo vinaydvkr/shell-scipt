@@ -1,5 +1,5 @@
 #!/bin/bash
-#This script is written for demonstrating special variables in bash
+#This script is written for demonstrating special variables in bash.
 
 echo "Arguments passed to the script are $@"
 echo "The number of arguments passed is $#"
